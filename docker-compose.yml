@@ -11,7 +11,7 @@ services:
     image: nginx
     container_name: nginx
     ports:
-      - 8080:80
+      - 80:80
       - 443:443
     volumes:
       - ./laravel-project:/var/www
