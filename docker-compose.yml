@@ -14,7 +14,7 @@ services:
       - 80:80
       - 443:443
     volumes:
-      - ./laravel-project:/var/www
+      - ./laravel-project:/var/www/laravel-project
       - ./Docker/nginx/conf.d:/etc/nginx/conf.d
       - ./letsencrypt:/etc/letsencrypt
     working_dir: /var/www
