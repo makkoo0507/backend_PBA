@@ -1,3 +1,4 @@
 Docker/db/mysql
 letsencrypt
-Docker/nginx/conf.d
+Docker/nginx/conf.d/*
+!Docker/nginx/conf.d/
