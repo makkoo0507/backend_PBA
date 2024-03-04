@@ -29,6 +29,7 @@ class ApiAuthController extends Controller
         return response()->json([
             'status' => false,
             'user' => null,
+            'message' => "メールアドレスもしくはパスワードが異なります"
         ],200);
     }
 }
